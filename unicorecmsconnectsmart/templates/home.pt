@@ -37,7 +37,7 @@
         </div>
 
         <div class="declaration">
-            <div class="pagination"><a href="/contact/" class="contact" i18n:translate="Contact">Contact</a> | <a href="/terms/" class="terms" i18n:translate="Lorem">Lorem</a> | <a href="/tips/" class="terms" i18n:translate="Ipsum">Ipsum</a></div>
+            <div class="pagination"><a href="/contact/" class="contact" i18n:translate="Contact">Contact</a> | <a href="/credits/" class="terms" i18n:translate="Credits">Credits</a> | <a href="/about/" class="terms" i18n:translate="About">About</a></div>
         </div><!--/declaration-->
     </div>
 </div>
