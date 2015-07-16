@@ -14,7 +14,6 @@
                 <div class="clr"></div>
 
                 <p>${structure:content}</p>
-                <div class="date">${view.format_date(page.created_at)}</div>
                 <div class="items">
                     <div class="item" tal:repeat="linked_page linked_pages">
                         <a href="/content/detail/${linked_page.uuid}/">&raquo; ${linked_page.title}</a>
