@@ -18,7 +18,7 @@
 
         <div class="articles category-${cat.slug}" tal:repeat="cat view.get_categories()">
             <div class="h1">
-                <a href="/content/list/${cat.uuid}/">${cat.title}</a>
+                <a>${cat.title}</a>
             </div>
             <div tal:repeat="page view.get_featured_category_pages(cat.uuid)"
                  tal:attributes="{'class':'listing'} if page.image_host and page.image else {'class': 'listing no-pic'}">
