@@ -13,7 +13,7 @@ div#mti_wfs_colophon { display: none!important; }
 .orange.up { text-transform: uppercase; }
 /* HEADER */
 #header { width: 100%; background: #00abe4; position: relative; z-index: 100000; }
-#logo-container a { padding: 8px 0 8px 0; margin: 0px 18px 0px 18px; display: block;} #logo-container img { width: 140px; }
+#logo-container a { padding: 8px 0 8px 0; margin: 0px 18px 3px 18px; display: block;} #logo-container img { width: 140px; }
 #header .drop { display: none; }
 #header .lang {width: 100%; line-height: 20px; padding: 5px 18px; display: block; background: #199acb; color: #00abe4; font-size: 12px; }
 #header .lang div{text-align: right;}
@@ -28,7 +28,7 @@ div#mti_wfs_colophon { display: none!important; }
 #submenu { background: #199acb; padding: 10px 18px; color: #00abe4; }
 #submenu a { font-weight: bold; color: #fff; letter-spacing: 0.02em; }
 /* BANNER */
-#banner { padding: 0; position: relative; z-index: 1; }
+#banner { margin: 0 0 3px 0 ; padding: 0; position: relative; z-index: 1; }
 #banner img { width: 100%; display: block; }
 /* CONTENT */
 #content { background: #fff; position: relative; }
