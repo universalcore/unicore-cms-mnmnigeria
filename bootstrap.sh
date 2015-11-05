@@ -13,7 +13,7 @@ pip install requests==2.5.3
 echo 'Done installing requirements.'
 echo 'Cloning repo..'
 rm -rf repo/
-git clone https://github.com/universalcore/unicore-cms-content-gem-aq-qa repo
+git clone https://github.com/universalcore/unicore-cms-content-connectsmart-za-prod repo
 echo 'Creating indexes..'
 eg-tools resync -c development.ini -m unicore.content.models.Category -f mappings/category.mapping.json -r true
 eg-tools resync -c development.ini -m unicore.content.models.Page -f mappings/page.mapping.json
