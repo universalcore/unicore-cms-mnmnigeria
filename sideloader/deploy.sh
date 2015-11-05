@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp -a unicore-cms-connectsmart ./build/
+cp -a unicore-cms-mnmnigeria ./build/
