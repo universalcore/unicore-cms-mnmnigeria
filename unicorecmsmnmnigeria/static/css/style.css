@@ -136,6 +136,11 @@ white-space: pre\9; /* IE7+ */
 .declaration .listing p { margin: 0; padding: 2px 0 0 0; color: #888888; }
 .declaration .pagination a { font-weight: bold; color: #fff; }
 .declaration .detail { padding: 10px; }
+
+.articles .links { margin: 25px 22px; }
+.articles .links a { display: block; font-weight: bold; margin: 22px 0px}
+.articles .links a img { vertical-align: middle; margin-right: 20px}
+.articles .listing #thanks p{ padding: 0px 20px 0px 5px; margin-top: -5px}
 /*Search Box*/
 .search-box form {
 	background-color: #ea178b;
@@ -246,8 +251,9 @@ white-space: pre\9; /* IE7+ */
 #footer a.contact { color: #000; text-decoration: underline; }
 #footer a.terms { float: right; color: #6c6c6c; text-decoration: underline; }
 /* BASE */
-#base { height: 120px; }
-#base img { width: 100%; display: block; padding: 40px 60px; background-color: #00abe4;}
+#base { height: 135px; }
+#base { width: 100%; color: black; padding: 30px 23px; background: #d5d2d2;}
+#base a { font-weight: bold}
 /*Paginator*/
 .pagenumbers {padding: 5px;}
 /*404*/

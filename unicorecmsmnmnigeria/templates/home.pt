@@ -36,8 +36,24 @@
             </div>
         </div>
 
-        <div class="declaration">
-            <div class="pagination"><a href="/contact/" class="contact" i18n:translate="Contact">Contact</a> | <a href="/credits/" class="terms" i18n:translate="Credits">Credits</a> | <a href="/about/" class="terms" i18n:translate="About">About</a></div>
-        </div><!--/declaration-->
+        <div class="articles">
+            <div class="h1">Connect With Us</div>
+            <div class="links">
+                <a href="#"><img src="/static/img/facebook-logo.png">Facebook</a>
+
+                <a href="#"><img src="/static/img/twitter-logo.png">Twitter</a>
+
+                <a href="#"><img src="/static/img/nmcp-logo.png">NMCP Website</a>
+            </div>
+        </div>
+        
+        <div class="articles">
+            <div class="h1">Our Supporters</div>
+            <div class="listing">
+                <div id="thanks">
+                    <p>We'd like to thank the Federal Government of Nigeria, Etisalat, ExxonMobil, Roll Back Malaria, Total, VAS2Nets</p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

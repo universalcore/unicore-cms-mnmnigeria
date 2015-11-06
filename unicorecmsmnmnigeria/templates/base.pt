@@ -27,6 +27,10 @@
     <div id="content">
         <div metal:define-slot="content"></div>
     </div>
-    <div id="base"><img alt='' src="/static/img/ConnectSmart_UNICEF-logo-footer.png" /></div><!--/BASE-->
+    <div id="base">
+            Copyright &copy;2014<br/>
+            Malaria No More<br/>
+            <a href="#">Contact Us</a>
+    </div><!--/BASE-->
 </body>
 </html>
