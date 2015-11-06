@@ -77,12 +77,8 @@ white-space: pre\9; /* IE7+ */
 }
 .articles .detail img { width: 100%; margin: 14px 0; display: block; }
 .articles .detail .date { font-size: 13px; text-transform: uppercase; color: #bbb; }
-.articles.category-get-answers .h1{ background: #017f4f; }
-.articles.category-get-answers .h2 a {  }
-.articles.category-10-top-tips .h1{ background: #017f4f; }
-.articles.category-10-top-tips .h2 a {}
-.articles.category-test-your-knowledge .h1{ background: #017f4f; }
-.articles.category-test-your-knowledge .h2 a {}
+.articles.category-protect-yourself .h2 a { color: red; }
+.articles.category-get-answers .h2 a { color: red; }
 /* Latest */
 .latest{}
 .latest .h1{ background: #ff9933; }
