@@ -24,7 +24,7 @@
                  tal:attributes="{'class':'listing'} if page.image_host and page.image else {'class': 'listing no-pic'}">
                 <div class="h2"><a href="/content/detail/${page.uuid}/">${page.title}</a></div>
                 <condition tal:omit-tag="" tal:condition="page.image_host and page.image">
-                    <img alt="${page.title}" src="${view.get_image_url(page.image_host, page.image, 45, 45)}"/>
+                    <img alt="${page.title}" src="${view.get_image_url(page.image_host, page.image, 90, 90)}"/>
                 </condition>
                 <p>${page.description}</p>
                 <div class="clr"></div>
