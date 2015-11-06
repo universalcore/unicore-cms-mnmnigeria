@@ -5,7 +5,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(here, 'requirements.txt'), 'r') as fp:
     requires = filter(None, fp.readlines())
 
-setup(name='unicore-cms-connectsmart',
+setup(name='unicore-cms-mnmnigeria',
       version='0.1.0',
       description='Connect Smart Pyramid Frontend Site for Universal Core ',
       long_description='Connect Smart Pyramid Frontend Site for Universal Core ',
@@ -17,7 +17,7 @@ setup(name='unicore-cms-connectsmart',
       ],
       author='Praekelt Foundation',
       author_email='dev@praekelt.com',
-      url='http://github.com/universalcore/unicore-cms-connectsmart',
+      url='http://github.com/universalcore/unicore-cms-mnmnigeria',
       license='BSD',
       keywords='web pyramid pylons',
       packages=find_packages(),
@@ -25,10 +25,10 @@ setup(name='unicore-cms-connectsmart',
       zip_safe=False,
       install_requires=requires,
       tests_require=requires,
-      test_suite="unicorecmsconnectsmart",
+      test_suite="unicorecmsmnmnigeria",
       entry_points="""\
       [paste.app_factory]
-      main = unicorecmsconnectsmart:main
+      main = unicorecmsmnmnigeria:main
       """,
       message_extractors={'.': [
       ('**.py', 'python', None),

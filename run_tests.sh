@@ -1,2 +1,2 @@
 #!/bin/bash
-py.test --verbose --cov ./unicorecmsconnectsmart unicorecmsconnectsmart
+py.test --verbose --cov ./unicorecmsmnmnigeria unicorecmsmnmnigeria

@@ -1,19 +1,19 @@
 #!/bin/bash
 find . -name '*.mo' -delete
-mkdir -p unicorecmsconnectsmart/locale
+mkdir -p unicorecmsmnmnigeria/locale
 
-pot-create -o unicorecmsconnectsmart/locale/unicorecmsconnectsmart.pot unicorecmsconnectsmart/
+pot-create -o unicorecmsmnmnigeria/locale/unicorecmsmnmnigeria.pot unicorecmsmnmnigeria/
 
 declare -a arr=("eng_GB")
 
 for lang in "${arr[@]}"
 do
-    mkdir -p "unicorecmsconnectsmart/locale/""$lang""/LC_MESSAGES"
+    mkdir -p "unicorecmsmnmnigeria/locale/""$lang""/LC_MESSAGES"
 
-    if [ ! -f "unicorecmsconnectsmart/locale/""$lang""/LC_MESSAGES/unicorecmsconnectsmart.po" ]; then
-        msginit -l $lang -i unicorecmsconnectsmart/locale/unicorecmsconnectsmart.pot -o unicorecmsconnectsmart/locale/$lang/LC_MESSAGES/unicorecmsconnectsmart.po
+    if [ ! -f "unicorecmsmnmnigeria/locale/""$lang""/LC_MESSAGES/unicorecmsmnmnigeria.po" ]; then
+        msginit -l $lang -i unicorecmsmnmnigeria/locale/unicorecmsmnmnigeria.pot -o unicorecmsmnmnigeria/locale/$lang/LC_MESSAGES/unicorecmsmnmnigeria.po
     fi
 
-    msgmerge --update unicorecmsconnectsmart/locale/$lang/LC_MESSAGES/unicorecmsconnectsmart.po unicorecmsconnectsmart/locale/unicorecmsconnectsmart.pot
-    msgfmt unicorecmsconnectsmart/locale/$lang/LC_MESSAGES/*.po -o unicorecmsconnectsmart/locale/$lang/LC_MESSAGES/unicorecmsconnectsmart.mo
+    msgmerge --update unicorecmsmnmnigeria/locale/$lang/LC_MESSAGES/unicorecmsmnmnigeria.po unicorecmsmnmnigeria/locale/unicorecmsmnmnigeria.pot
+    msgfmt unicorecmsmnmnigeria/locale/$lang/LC_MESSAGES/*.po -o unicorecmsmnmnigeria/locale/$lang/LC_MESSAGES/unicorecmsmnmnigeria.mo
 done

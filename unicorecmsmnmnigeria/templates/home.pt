@@ -1,16 +1,16 @@
 <div metal:use-macro="view.global_template"
      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
-     i18n:domain="unicorecmsconnectsmart">
+     i18n:domain="unicorecmsmnmnigeria">
     <div metal:fill-slot="content">
 
         <div tal:define="localisation view.get_localisation()" tal:omit-tag="">
             <div id="banner">
                 <a href="/">
                     <condition tal:omit-tag="" tal:condition="localisation and localisation.image_host and localisation.image">
-                        <img alt="Welcome to Connect Smart" src="${view.get_image_url(localisation.image_host, localisation.image, 320)}"/>
+                        <img alt="Welcome to Connect mnmnigeria" src="${view.get_image_url(localisation.image_host, localisation.image, 320)}"/>
                     </condition>
                     <condition tal:omit-tag="" tal:condition="not (localisation and localisation.image_host and localisation.image)">
-                        <img alt='Welcome to Connect Smart' src="/static/img/ConnectSmart_Title-Illustration.png" />
+                        <img alt='Welcome to Connect mnmnigeria' src="/static/img/ConnectSmart_Title-Illustration.png" />
                     </condition>
                 </a>
             </div>

@@ -7,8 +7,8 @@ install:
   - pip install -r requirements-dev.txt --use-wheel
   - pip install -e . --use-wheel
 script:
-  - find ./unicorecmsconnectsmart -name '*.py' | xargs pep8
-  - find ./unicorecmsconnectsmart -name '*.py' | xargs pyflakes
+  - find ./unicorecmsmnmnigeria -name '*.py' | xargs pep8
+  - find ./unicorecmsmnmnigeria -name '*.py' | xargs pyflakes
   - ./run_tests.sh
 after_success:
   - coveralls
