@@ -33,7 +33,7 @@ div#mti_wfs_colophon { display: none!important; }
 /* CONTENT */
 #content { background: #f0f0f0; position: relative; }
 /* Frequently Used */
-.h1 { padding: 8px 18px; font-size: 16px; font-weight: bold; text-transform: uppercase; line-height: 22px; color: #fff; }
+.h1 { padding: 8px 18px; font-size: 25px; font-weight: bold; text-transform: uppercase; color: #fff; }
 .h1 a { color: #fff; font-weight: bold; }
 .comment,
 .listing { min-height: 45px; border-bottom: 1px solid #d4d4d4; }
@@ -44,7 +44,7 @@ div#mti_wfs_colophon { display: none!important; }
 .comment .h3 { font-size: 16px; line-height: 16px; }
 .listing .h2 { font-size:25px; line-height: 29px; font-weight: bold; text-transform: uppercase;}
 .pagination { background: #199acb; padding: 8px 18px; color: #00abe4;}
-.pagination.more{background: #d5d2d2;}
+.pagination.more{background: #d5d2d2; padding: 20px;}
 .pagination.more.category-get-answers a{}
 .auth form .btns input,
 .auth form .btns a,
@@ -57,14 +57,14 @@ div#mti_wfs_colophon { display: none!important; }
 .pagination a.right { display: none; }
 /* Articles */
 .articles { padding: 0; }
-.articles .h1 { background: #017f4f; }
+.articles .h1 { background: #017f4f; padding: 18px; margin-bottom: 10px;}
 .articles .listing { padding: 25px 18px; }
 .articles .listing img { width: 90px; float: left; margin: 0 18px 0 0; display: block; }
 [dir='rtl'] .articles .listing img { float: right; margin: 0 0 0 18px; }
 .articles .listing .h2 { margin: 0; padding: 0 0 16px 0; color: #eb178e; }
 .articles .listing .h2 a {}
 .articles .listing p { margin: 0; padding: 0 0 0 0; color: black; }
-.articles .pagination a { font-weight: bold; }
+.articles .pagination a { font-weight: bold; font-size: 25}
 .articles .no-pic .h2, .articles .no-pic p { margin-left: 0; }
 .articles .detail { padding: 13px 18px; }
 .articles .detail pre {
