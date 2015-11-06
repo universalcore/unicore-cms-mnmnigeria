@@ -23,12 +23,6 @@
         <div class="clr"></div>
     </div>
     <div class="push"></div><!--/PUSH-->
-    <div id="submenu" metal:define-slot="nav">
-        <a href="/" i18n:translate="Home">Home</a>
-        <span tal:repeat="cat view.get_top_nav">
-            | <a href="/content/list/${cat.uuid}/">${cat.title}</a>
-        </span>
-    </div>
 
     <div id="content">
         <div metal:define-slot="content"></div>
