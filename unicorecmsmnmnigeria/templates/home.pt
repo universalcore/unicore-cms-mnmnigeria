@@ -7,10 +7,10 @@
             <div id="banner">
                 <a href="/">
                     <condition tal:omit-tag="" tal:condition="localisation and localisation.image_host and localisation.image">
-                        <img alt="Welcome to Connect mnmnigeria" src="${view.get_image_url(localisation.image_host, localisation.image, 320)}"/>
+                        <img alt="Welcome to Malaria No More" src="${view.get_image_url(localisation.image_host, localisation.image, 320)}"/>
                     </condition>
                     <condition tal:omit-tag="" tal:condition="not (localisation and localisation.image_host and localisation.image)">
-                        <img alt='Welcome to Connect mnmnigeria' src="/static/img/ConnectSmart_Title-Illustration.png" />
+                      <img alt='Welcome to Malaria No More' src="/static/img/banner-image.png" />
                     </condition>
                 </a>
             </div>

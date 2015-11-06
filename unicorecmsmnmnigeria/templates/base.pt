@@ -18,7 +18,7 @@
 </head>
 <body>
     <div id="header">
-        <div metal:use-macro="view.logo_template" tal:omit-tag="" tal:define="img_attrs view.get_logo_attributes(default_image_src=request.static_url('cms:static/img/ConnectSmart_UNICEF-logo-footer.png'))">
+        <div metal:use-macro="view.logo_template" tal:omit-tag="" tal:define="img_attrs view.get_logo_attributes(default_image_src=request.static_url('cms:static/img/mnm-nigeria-logo.png'))">
         </div>
         <div class="clr"></div>
     </div>

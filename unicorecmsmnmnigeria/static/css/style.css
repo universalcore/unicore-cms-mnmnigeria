@@ -12,8 +12,8 @@ div#mti_wfs_colophon { display: none!important; }
 .orange { color: #fa9e1d; }
 .orange.up { text-transform: uppercase; }
 /* HEADER */
-#header { width: 100%; background: #00abe4; position: relative; z-index: 100000; }
-#logo-container a { padding: 8px 0 8px 0; margin: 0px 18px 0px 18px; display: block;} #logo-container img { width: 140px; }
+#header { width: 100%; background: #017f4f; position: relative; z-index: 100000; }
+#logo-container a { padding: 0; margin:0; display: block;} #logo-container img { width: 100%; }
 #header .drop { display: none; }
 #header .lang {width: 100%; line-height: 20px; padding: 5px 18px; display: block; background: #199acb; color: #00abe4; font-size: 12px; }
 #header .lang div{text-align: right;}
