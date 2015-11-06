@@ -44,7 +44,7 @@ div#mti_wfs_colophon { display: none!important; }
 .flat .h2,
 .comment .h3 { font-size: 16px; line-height: 16px; }
 .pagination { background: #199acb; padding: 8px 18px; color: #00abe4;}
-.pagination.more{background: #eee;}
+.pagination.more{background: #d5d2d2;}
 .pagination.more.category-get-answers a{}
 .auth form .btns input,
 .auth form .btns a,
