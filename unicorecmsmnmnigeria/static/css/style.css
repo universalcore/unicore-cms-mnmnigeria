@@ -38,11 +38,11 @@ div#mti_wfs_colophon { display: none!important; }
 .comment,
 .listing { min-height: 45px; border-bottom: 1px solid #d4d4d4; }
 .listing:last-of-type { border: 0!important; }
-.listing .h2,
 .poll .fields .h2,
 .detail .h2,
 .flat .h2,
 .comment .h3 { font-size: 16px; line-height: 16px; }
+.listing .h2 { font-size:25px; line-height: 29px; font-weight: bold; text-transform: uppercase;}
 .pagination { background: #199acb; padding: 8px 18px; color: #00abe4;}
 .pagination.more{background: #d5d2d2;}
 .pagination.more.category-get-answers a{}
@@ -61,7 +61,7 @@ div#mti_wfs_colophon { display: none!important; }
 .articles .listing { padding: 13px 18px; }
 .articles .listing img { width: 45px; float: left; margin: 0 18px 0 0; display: block; }
 [dir='rtl'] .articles .listing img { float: right; margin: 0 0 0 18px; }
-.articles .listing .h2 { margin: 0; padding: 0; color: #eb178e; }
+.articles .listing .h2 { margin: 0; padding: 0 0 16px 0; color: #eb178e; }
 .articles .listing .h2 a {}
 .articles .listing p { margin: 0; padding: 2px 0 0 0; color: #888888; }
 .articles .pagination a { font-weight: bold; }

@@ -22,10 +22,10 @@
             </div>
             <div tal:repeat="page view.get_featured_category_pages(cat.uuid)"
                  tal:attributes="{'class':'listing'} if page.image_host and page.image else {'class': 'listing no-pic'}">
+                <div class="h2"><a href="/content/detail/${page.uuid}/">${page.title}</a></div>
                 <condition tal:omit-tag="" tal:condition="page.image_host and page.image">
                     <img alt="${page.title}" src="${view.get_image_url(page.image_host, page.image, 45, 45)}"/>
                 </condition>
-                <div class="h2"><a href="/content/detail/${page.uuid}/">${page.title}</a></div>
                 <p>${page.description}</p>
                 <div class="clr"></div>
             </div>
