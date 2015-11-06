@@ -58,7 +58,7 @@ div#mti_wfs_colophon { display: none!important; }
 /* Articles */
 .articles { padding: 0; }
 .articles .h1 { background: #017f4f; }
-.articles .listing { padding: 13px 18px; }
+.articles .listing { padding: 25px 18px 13px; }
 .articles .listing img { width: 90px; float: left; margin: 0 18px 0 0; display: block; }
 [dir='rtl'] .articles .listing img { float: right; margin: 0 0 0 18px; }
 .articles .listing .h2 { margin: 0; padding: 0 0 16px 0; color: #eb178e; }
