@@ -37,7 +37,7 @@
         </div>
 
         <div class="articles">
-            <div class="h1">Connect With Us</div>
+            <div class="h1" i18n:translate="Connect With Us">Connect With Us</div>
             <div class="links">
                 <a href="http://mnm-ng-186.apollo.unicore.io/"><img src="/static/img/facebook-logo.png">Facebook</a>
 
