@@ -47,7 +47,7 @@
             </div>
         </div>
         
-        <div class="articles">
+        <div class="articles" i18n:translate="Our Supporters">
             <div class="h1">Our Supporters</div>
             <div class="listing">
                 <div id="thanks">
