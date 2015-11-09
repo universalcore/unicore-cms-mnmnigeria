@@ -32,7 +32,7 @@
 
             <div class="clr"></div>
             <div class="pagination more category-${cat.slug}" tal:condition="len(view.get_featured_category_pages(cat.uuid)) > 1">
-                <a href="/content/list/${cat.uuid}/"><span i18n:translate="More">Read more posts</span></a>
+                <a href="/content/list/${cat.uuid}/"><span i18n:translate="More">Read more</span></a>
             </div>
         </div>
 
