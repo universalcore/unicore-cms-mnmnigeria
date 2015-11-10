@@ -29,7 +29,7 @@
     <div id="base">
             Copyright &copy;2014<br/>
             Malaria No More<br/>
-            <a href="/contact/" i18n:translate="Contact">Contact Us</a>
+            <a href="/contact/" i18n:translate="Contact Us">Contact Us</a>
     </div><!--/BASE-->
 </body>
 </html>

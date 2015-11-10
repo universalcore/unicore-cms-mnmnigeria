@@ -32,14 +32,14 @@
 
             <div class="clr"></div>
             <div class="pagination more category-${cat.slug}" tal:condition="len(view.get_featured_category_pages(cat.uuid)) > 1">
-                <a href="/content/list/${cat.uuid}/"><span i18n:translate="More">Read more posts</span></a>
+                <a href="/content/list/${cat.uuid}/"><span i18n:translate="More">Read more</span></a>
             </div>
         </div>
 
         <div class="articles">
-            <div class="h1">Connect With Us</div>
+            <div class="h1" i18n:translate="Connect With Us">Connect With Us</div>
             <div class="links">
-                <a href="http://mnm-ng-186.apollo.unicore.io/"><img src="/static/img/facebook-logo.png">Facebook</a>
+                <a href="https://www.facebook.com/Malaria-Free-Nigeria-553799691396462/"><img src="/static/img/facebook-logo.png">Facebook</a>
 
                 <a href="https://twitter.com/malariafreeng"><img src="/static/img/twitter-logo.png">Twitter</a>
 
@@ -47,7 +47,7 @@
             </div>
         </div>
         
-        <div class="articles">
+        <div class="articles" i18n:translate="Our Supporters">
             <div class="h1">Our Supporters</div>
             <div class="listing">
                 <div id="thanks">
