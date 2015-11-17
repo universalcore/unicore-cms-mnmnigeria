@@ -51,7 +51,7 @@
             <div class="h1">Our Supporters</div>
             <div class="listing">
                 <div id="thanks">
-                    <p>We'd like to thank the Federal Government of Nigeria, Etisalat, ExxonMobil, Roll Back Malaria, Total, VAS2Nets</p>
+                    <p i18n:translate="We'd like to thank the Federal Government of Nigeria, ExxonMobil, Roll Back Malaria, Total Nigeria Plc., VAS2Nets and our media partners">We'd like to thank the Federal Government of Nigeria, ExxonMobil, Roll Back Malaria, Total Nigeria Plc., VAS2Nets and our media partners</p>
                 </div>
             </div>
         </div>
