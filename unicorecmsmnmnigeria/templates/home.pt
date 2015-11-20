@@ -44,6 +44,10 @@
                 <a href="https://twitter.com/malariafreeng"><img src="/static/img/twitter-logo.png">Twitter</a>
 
                 <a href="http://www.nmcp.gov.ng/"><img src="/static/img/nmcp-logo.png">NMCP Website</a>
+
+                <a href="https://www.instagram.com/explore/tags/malariafreenigeria/"><img src="/static/img/mnm-nigeria-mini-logo.png">Instagram</a>
+
+                <a href="https://www.youtube.com/channel/UCB_h86bc8ugY3usl5dlKBjQ"><img src="/static/img/mnm-nigeria-mini-logo.png">YouTube</a>
             </div>
         </div>
         
@@ -51,7 +55,7 @@
             <div class="h1">Our Supporters</div>
             <div class="listing">
                 <div id="thanks">
-                    <p>We'd like to thank the Federal Government of Nigeria, Etisalat, ExxonMobil, Roll Back Malaria, Total, VAS2Nets</p>
+                    <p i18n:translate="We'd like to thank the Federal Government of Nigeria, ExxonMobil, Roll Back Malaria, Total Nigeria Plc., VAS2Nets and our media partners.">We'd like to thank the Federal Government of Nigeria, ExxonMobil, Roll Back Malaria, Total Nigeria Plc., VAS2Nets and our media partners.</p>
                 </div>
             </div>
         </div>
