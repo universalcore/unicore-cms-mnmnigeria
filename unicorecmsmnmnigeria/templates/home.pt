@@ -1,0 +1,63 @@
+<div metal:use-macro="view.global_template"
+     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+     i18n:domain="unicorecmsmnmnigeria">
+    <div metal:fill-slot="content">
+
+        <div tal:define="localisation view.get_localisation()" tal:omit-tag="">
+            <div id="banner">
+                <a href="/">
+                    <condition tal:omit-tag="" tal:condition="localisation and localisation.image_host and localisation.image">
+                        <img alt="Welcome to Malaria No More" src="${view.get_image_url(localisation.image_host, localisation.image, 320)}"/>
+                    </condition>
+                    <condition tal:omit-tag="" tal:condition="not (localisation and localisation.image_host and localisation.image)">
+                      <img alt='Welcome to Malaria No More' src="/static/img/banner-image.png" />
+                    </condition>
+                </a>
+            </div>
+        </div>
+
+        <div class="articles category-${cat.slug}" tal:repeat="cat view.get_categories()">
+            <div class="h1">
+                ${cat.title}
+            </div>
+            <div tal:repeat="page view.get_featured_category_pages(cat.uuid)"
+                 tal:attributes="{'class':'listing'} if page.image_host and page.image else {'class': 'listing no-pic'}">
+                <div class="h2"><a href="/content/detail/${page.uuid}/">${page.title}</a></div>
+                <condition tal:omit-tag="" tal:condition="page.image_host and page.image">
+                    <img alt="${page.title}" src="${view.get_image_url(page.image_host, page.image, 90, 90)}"/>
+                </condition>
+                <p>${page.description}</p>
+                <div class="clr"></div>
+            </div>
+
+            <div class="clr"></div>
+            <div class="pagination more category-${cat.slug}" tal:condition="len(view.get_featured_category_pages(cat.uuid)) > 1">
+                <a href="/content/list/${cat.uuid}/"><span i18n:translate="More">Read more</span></a>
+            </div>
+        </div>
+
+        <div class="articles">
+            <div class="h1" i18n:translate="Connect With Us">Connect With Us</div>
+            <div class="links">
+                <a href="https://www.facebook.com/Malaria-Free-Nigeria-553799691396462/"><img src="/static/img/facebook-logo.png">Facebook</a>
+
+                <a href="https://twitter.com/malariafreeng"><img src="/static/img/twitter-logo.png">Twitter</a>
+
+                <a href="http://www.nmcp.gov.ng/"><img src="/static/img/nmcp-logo.png">NMCP Website</a>
+
+                <a href="https://www.instagram.com/explore/tags/malariafreenigeria/"><img src="/static/img/mnm-nigeria-mini-logo.png">Instagram</a>
+
+                <a href="https://www.youtube.com/channel/UCB_h86bc8ugY3usl5dlKBjQ"><img src="/static/img/mnm-nigeria-mini-logo.png">YouTube</a>
+            </div>
+        </div>
+        
+        <div class="articles" i18n:translate="Our Supporters">
+            <div class="h1">Our Supporters</div>
+            <div class="listing">
+                <div id="thanks">
+                    <p i18n:translate="We'd like to thank the Federal Government of Nigeria, ExxonMobil, Roll Back Malaria, Total Nigeria Plc., VAS2Nets and our media partners.">We'd like to thank the Federal Government of Nigeria, ExxonMobil, Roll Back Malaria, Total Nigeria Plc., VAS2Nets and our media partners.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
